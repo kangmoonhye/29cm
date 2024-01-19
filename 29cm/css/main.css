@@ -1,0 +1,283 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    height: 325px;
+}
+
+.head{
+    background-color: black;
+    color: white;
+    display: inline-block;
+    width: 100%;
+}
+
+.head > ul{
+    text-align: center;
+    font-size: 12px;
+    display: flex;
+    justify-content: center;
+}
+
+.head > ul > li{
+    list-style: none;
+    margin-right: 30px;
+    display: inline-block;
+    text-align: center;
+}
+
+.head > ul > li > span{
+    color: red;
+}
+
+.nav{
+    display: flex;
+    
+}
+
+.logo{
+    display: inline-block;
+    margin-left: 40px;
+    font-size: 50px;
+}
+
+.icon{
+    display: flex;
+    position: absolute;
+    right: 10px;
+    margin-top: 40px;
+}
+
+.icon > li{
+    list-style: none;
+    margin-right: 30px;
+}
+
+.icon > li > i{
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.nav2{
+    display: flex;
+    position: relative;
+    top: -35px;
+}
+
+.category{
+    display: flex;
+    width:80%
+}
+.category-item{
+    margin-right: 50PX;
+    list-style: none;
+    margin-right: 10%;
+}
+
+
+a{
+    text-decoration:none ;
+    color: black;
+
+}
+a:hover{
+    text-decoration: underline;
+}
+
+.search{
+    font-size: 50px;
+    width: 50px;
+    height: 30px;
+    position: relative;
+    top: 20px;   
+    right: -172px;
+}
+
+.second-category{
+    display: flex;
+    /* border: 1px solid red; */
+    margin: 0 auto;
+
+}
+
+.div2{
+    display: inline-block;
+    /* background-color: red; */
+    position: relative;
+    top: -50px;
+    height: 300px;
+    /* border-bottom: 2px solid lime; */
+}
+.second-category > li{
+    list-style: none;
+    /* background-color: lime; */
+    margin-right: 30px;
+
+}
+
+.woman2{
+    position: absolute;
+    left: 0px;
+    top: 41px;
+    list-style: none;
+    width: 700%;
+    height: 251px;
+    border-top: 2px solid #0000000f;
+    border-bottom: 2px solid black;
+    display: none;
+
+}
+
+.woman:hover .woman2{
+    /* list-style: none; */
+    display: block;
+    background-color: white;
+
+}
+
+.bag{
+    position: absolute;
+    left: 100px;
+}
+.shoe{
+    position: absolute;
+    left: 200px;
+}
+.acc{
+    position: absolute;
+    left: 300px;
+}
+
+.man2{
+    position: absolute;
+    left: 0px;
+    top: 41px;
+    list-style: none;
+    width: 700%;
+    height: 251px;
+    border-top: 2px solid #0000000f;
+    border-bottom: 2px solid black;
+    display: none;
+}
+
+.man3:hover .man2{
+    /* list-style: none; */
+    display: block;
+    background-color: white;
+}
+
+.man3> .bag{
+    position: absolute;
+    left: 100px;
+}
+
+.man3 > .shoe{
+    position: absolute;
+    left: 200px;
+}
+.man3 > .acc{
+    position: absolute;
+    left: 300px;
+}
+
+/* .best1> a:hover .best2{
+display: block;
+} */
+
+
+
+footer ul li{
+    list-style: none;
+}
+
+.top{
+    /* border: 1px solid red; */
+
+}
+
+
+.mid{
+    /* border: 1px solid lime; */
+    display: flex;
+    justify-content: space-around;
+}
+
+.faq{
+    /* background-color: aquamarine; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.faq2{
+    display: flex;
+    /* border: 1px solid red; */
+}
+
+.faq2 li{
+    /* border: 1px solid red; */
+    background-color: black;
+    color: white;
+    margin-right: 20px;
+}
+
+.ficon{
+    display: flex;
+    float: right;
+    /* background-color: lime; */
+}
+
+.ficon i{
+    margin-right: 20px;
+    width: 28px;
+    height: 28px;
+    background-color: black;
+    border-radius: 50%;
+    text-align: center;
+    margin-top: -3px;
+    color: white;
+}
+.ficon i:hover{
+    background-color: rgba(0, 0, 0, 0);
+    color: rgb(0, 0, 0);
+}
+.time{
+    /* background-color: yellow; */
+    height: 100px;
+    text-align: justify;
+}
+
+.time h5{
+    display: inline-block;
+    position: relative;
+    bottom: -42px;
+    left: 42px;
+}
+
+.time p{
+    /* border: 1px solid red; */
+    font-size: 10px;
+    position: relative;
+    left: 41px;
+    bottom: -11px;
+}
+
+
+.ficon i::before{
+    position: relative;
+    top: 5px;
+}
+
+.contents{
+    border: 1px solid red;
+    display: flex;
+
+}
+
+.aside{
+    background-color: blueviolet;
+}
+.main{
+background-color: blanchedalmond;
+}

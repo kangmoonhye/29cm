@@ -1,0 +1,133 @@
+.movie_poster{
+    width: 350px;
+    margin-left: 30px;
+}
+
+.movie_description{
+    margin-left: 30px;
+    border: 5px solid red;
+    width: 340px;
+}
+
+.naver{
+    background-color: black;
+    color: violet;
+    text-decoration: none;
+    font-size: 100px;
+}
+
+.naver:hover{
+    color:yellow;
+    background-color: turquoise;
+}
+
+.naver:visited{
+    color: yellow;
+}
+
+ul{
+    list-style: none;
+    background-color: skyblue;
+}
+ul:hover{
+    background-color: royalblue;
+}
+li{
+    text-align: center;
+    width: 100px;
+    margin-top: 10px;
+    margin-bottom: 10px ;
+    background-color: violet;
+    padding: 20px;
+}
+li:nth-child(2){
+    background-color: yellow ;
+}
+
+li:nth-child(1):hover{
+    background-color: salmon ;
+}
+li:nth-child(2n):hover{
+    background-color: orange ;
+}
+li:nth-child(3n):hover{
+    background-color: greenyellow ;
+}
+li:nth-child(4n):hover{
+    background-color: pink ;
+}
+li:last-child{
+    background-color: turquoise;
+}
+.a{
+    color: yellow;
+    background-color: yellowgreen;
+    font-size: 100px;
+}
+
+.flex-container{
+    border: 2px solid red;
+    margin-bottom: 30px;
+}
+
+.content{
+    padding: 8px;
+    margin: 8px;
+    border: 2px solid green;
+}
+
+#c1 > .content{
+    display: inline;
+}
+
+#c2 > .content{
+    display: block;
+}
+
+#c3 > .content{
+    display: inline-block;
+}
+
+#c4 > .content{
+    visibility: hidden;
+}
+
+#c5 > .content{
+    display: none;
+}
+
+#c6, #c7, #c8 {
+    display: flex;
+
+}
+
+.flex-wrap{
+    flex-wrap: wrap;
+}
+.flex-nowrap{
+    flex-wrap: nowrap;
+}
+.flex-wrap-reverse{
+    flex-wrap: wrap-reverse;
+}
+
+.flex-container > .content{
+    width: 50px;
+}
+
+.flex-start{
+    justify-content: start;
+}
+
+.flex-end{
+    justify-content: end;
+}
+.flex-center{
+    justify-content: center;
+}
+.flex-space-around{
+    justify-content: space-around;
+}
+.flex-space-between{
+    justify-content: space-between;
+}

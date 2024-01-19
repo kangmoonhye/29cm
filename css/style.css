@@ -1,0 +1,36 @@
+/* 선택자{
+    디자인 코드 작성 
+    선택자 : 태그이름 #아이디/ 태그이름.클래스이름
+} */
+#p1{
+    color: rgb(238, 131, 242);
+}
+
+#p2{
+    color: yellowgreen;
+}
+
+.class1{
+    color: brown;
+}
+
+.class2{
+    background-color: yellow;
+    font-size: 25px;;
+    width: 150px;
+    padding: 10px;
+
+}
+div{
+    /* background-color: yellowgreen; */
+    background-image: url(https://traditiononline.org/wp-content/uploads/2020/06/clouds.jpg);
+    background-size: contain;
+    width: auto;
+    height: 500px;
+    background-position: right;
+    border: 20px;
+    border-color: yellow;
+}
+body{
+    background-color: blueviolet;
+}

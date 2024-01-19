@@ -1,0 +1,49 @@
+div{
+    border: 1px solid green;
+    width: 180px;
+}
+
+#div1{
+    width: 1000px;
+}
+
+#div2{
+    width: 100%;
+    max-width: 1000px;
+}
+
+#div3{
+    min-width: 800px;
+}
+/* height mobile */
+@media (min-width: 375px){
+    #div4{
+        background-color: yellow;
+        display: block;
+        }
+    }
+
+/* mobile */
+@media (min-width: 576px){
+#div4{
+    background-color: lime;
+    display: block;
+    }
+}
+
+/* tablet */
+@media (min-width: 768px){
+    #div4{
+        background-color: red;
+
+        display: block;
+    }  
+  }
+
+  /* desktop */
+@media (min-width: 1000px){
+  #div4{
+  background-color: blue;
+
+        }
+ }

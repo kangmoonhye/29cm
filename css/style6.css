@@ -1,0 +1,29 @@
+div{
+    border: 1px solid red;;
+    display: inline-block;
+}
+#div1{
+    position: static;
+}
+#div2{
+    /* 위치지정 */
+    position: relative;
+    right: 30px;
+    bottom: 200px ;
+}
+#div3{
+    /* 절댓값 위치 고정 */
+    position: fixed;
+    right: 100px;
+    bottom: 30px;
+}
+#div4{
+    /* 절대값 위치 지정 */
+    position: absolute;
+    right: 50%;
+    bottom: 150px;
+}
+#div5{
+    /*  */
+    position: sticky;
+}

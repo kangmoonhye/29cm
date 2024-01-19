@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>html의 elements</title>
+</head>
+<body>
+    html에서는 태그를 elements (= 요소)라고 부른다
+    <br>
+    elements 태그 이름과 Atribute라는 속성들로 이루어졌다
+
+
+    <h1>제목태그</h1>
+    <h2>제목태그</h2>
+    <h3>제목태그</h3>
+    <h4>제목태그</h4>
+    <h5>제목태그</h5>
+    <h6>제목태그</h6>
+
+
+    <a href="https://www.naver.com/">링크 태그</a><br>
+    <a href="./01. html의 기본 개념.html">내파일안의 상대경로/절대경로 작성 가능</a>
+    <br>
+    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRpiJxZHaa1esOxgoZRV9XEIiGrMXF1p3mfAw&usqp=CAU" alt="사진에 대한 설명 넣기">
+    <img src="./img/1.jpg" alt="내 경로 안에 너구리 사진" style="width: 200px;">
+    
+    <br>
+
+    <table border="2px" style="width: 300px;">
+        <th>
+            <td>어쩌구저쩌구</td>
+            <td>ㅋㅋㅋㅋㅋㅋ</td>
+            <td>ㅎㅎㅎㅎㅎㅎ</td>
+        </th>
+        <tr>
+            <td colspan="3">1</td>
+            <td colspan="3">1</td>
+        </tr>
+        <tr>
+            <td rowspan="4">3</td>
+            <td>4</td>
+            <td>3</td>
+            <td>4</td>
+            <td>3</td>
+            <td>4</td>
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>3</td>
+            <td>3</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+        </tr>
+        <tr>
+            <td>7</td>
+            <td>8</td>
+        </tr>
+    </table>
+    <br>
+    <ul>
+        <li>ul은 unorderd list</li>
+        <li>li는 리스트</li>
+        <li>집</li>
+        <li>가고</li>
+        <li>싶다</li>
+    </ul>
+
+    <ol>
+        <li>ol은 orderd list</li>
+        <li>집</li>
+        <li>가고/li>
+        <li>싶다</li>
+    </ol>
+    <br>
+    <p>p는 내용 태그</p>
+    집 가고 <p>싶다</p> 
+    집 가고 <span>싶다</span>
+
+    디스플레이 속성이 블록이 태그를 p, div, 화면ㅇ에서 한줄 전체 차지
+    <br>
+    디스플레이 속성이 인라인인 태그들, span, 회면에서 해당 내용만큼 
+    
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/gpX2jCG_ATE?si=_F_-QULiKl3p9qqo" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+    
+    <div></div>
+
+    <p>유일하게 post 방식으로 데이터를 보낼 수 있는 태그가 폼 태그</p>
+    <form method="post" enctype="multipart/form-data" action="http://localhost:8080/test/abc">
+        email : <input type="text" name="email">
+        <br>
+        password: <input type="password" name="password">
+        <br>
+        사진: <input type="file" multiple accept="images/*" name="img">
+        <br>
+        개인정보 제공: <input type="radio" name="accept" value="동의">동의
+        <input type="radio" name="accept" value="비동의">비동의
+        <br>
+        점심메뉴: <input type="checkbox" name="lunch" value="햄버거">햄버거
+        <input type="checkbox" name="lunch" value="피자">피자
+        <input type="checkbox" name="lunch" value="치킨">치킨
+        <br>
+        예약날짜: <input type="date" name="date">
+        <br>
+        <input type="submit">
+        <!-- input태그에 입력한 내용을 form태그에 저장한 서버로 전송 -->
+        <br>
+        예약날짜: <input type="date">
+        <br>
+        <input type="reset">
+        <br>
+        <button>버튼</button> 
+        <!-- 동작 안하는 버튼, 제일 많이 씀  -->
+        <br>
+
+    </form>
+
+</body>
+</html>
