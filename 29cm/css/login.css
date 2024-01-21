@@ -1,4 +1,6 @@
-
+li{
+  list-style: none;
+}
 
 
 .login{
@@ -12,11 +14,16 @@
     text-align: center;
   }
 
+  .login h4{
+    font-size: 45px;
+    font-weight: 500;
+  }
+
   .login .div1 {
     border-bottom: 3px solid black;
     width: 326px;
     position: relative;
-    bottom: 57px;
+    bottom: 32px;
   }
   .loginform{
     width: 100%;
@@ -32,9 +39,7 @@
     width: 312px;
     height: 53px;
     border: 1px solid black;
-    /* background: #ebebeb; */
     margin-bottom: 11px;
-    /* border-radius: 20px; */
     padding: 0 3px;
     outline: none;
   }
@@ -49,11 +54,20 @@
     color: white;
   }
 
+  .findli a{
+    color: #a0a0a0;
+  }
+
   .other{
+    /* background-color: rgb(255, 251, 0); */
     width: 100%;
+    height: 174px;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;    
+    text-align: center;
+    padding-bottom: 50px;
   }
 
   .other ul{
@@ -63,5 +77,256 @@
 
 
   .signup{
-    border: 1px solid red;
+    /* background-color: skyblue; */
+    width: 100%;
+    height: 174px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;    
+    text-align: center;
   }
+
+  .coupon a{
+    text-decoration: underline;
+    color: red;
+  }
+
+  .coupon{
+    font-size: 13px;
+
+  }
+
+  .coupon span{
+    color: red;
+  }
+
+  .findclass{
+    position: relative;
+  }
+  .find{
+    display: flex;
+    position: relative;
+    justify-content: space-between;
+  }
+
+  .find li{
+    padding: 30px 20px 0px 0px;
+    /* margin-top: 30px;
+    margin-right: 20px; */
+    font-size: 12px;
+    display: block;
+    /* border: 1px solid red; */
+  }
+/* 
+  .find li::before{
+    display: inline-block;
+    position: absolute;
+    top: 32px;
+    left: 181px;
+    width: 2px;
+    height: 17px;
+    background: #19ff00;
+    content: ' ';
+  } */
+
+  .find li ::after{
+    content: "";
+    position: absolute;
+    top: 32px;
+    left: 162px;
+    width: 1px;
+    height: 26%;
+    border-left: 1px solid gray;
+
+  }
+
+  #simple {
+    width: 318px;
+    height:  60px;
+    background: white;
+    padding: 10px;
+    border-radius: 40px;
+    /* resize: none; */
+    color: black;
+    border: 1px solid black;
+    font-weight: 900;
+  }
+
+  .css-gmuwbf e1rwcevq2{
+    display: flex;
+  }
+
+  /* Kakao */
+  .css-1ovhvo9{
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    min-width: 40px;
+    min-height: 25px;
+    width: 114px;
+    height: 44px;
+    border-radius: 100px;
+    background: #ffde00;
+    border: none;
+
+  }
+
+  /* 로그인 한줄 */
+  .css-gmuwbf {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: flex-start;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    /* border: 1px solid black; */
+    /* background-color: yellowgreen; */
+    width: 325px;
+}
+
+.css-gmuwbf div{
+  margin: 0 10px;
+}
+
+/* 3초만에 시작하기 */
+.css-1gwckx0 {
+  z-index: 1;
+  position: absolute;
+  padding: 5px 11px;
+  border: 1px solid #ff4800;
+  border-radius: 2px;
+  background: #ff4800;
+  font-size: 12px;
+  color: #ffffff;
+  line-height: 14px;
+  white-space: nowrap;
+  /* top: calc(100% + 10px); */
+  left: 50%;
+  -webkit-transform: translateX(-50%);
+  -moz-transform: translateX(-50%);
+  -ms-transform: translateX(-50%);
+  transform: translateX(-133%);
+}
+
+/* 3초만에 시작하기 */
+.css-o8ddvr {
+  position: absolute;
+  border-top: 4px solid transparent;
+  border-bottom: 4px solid transparent;
+  border-left: 6px solid #ff4800;
+  top: -10px;
+  left: 50%;
+  margin-left: -3px;
+  -webkit-transform: rotate(-90deg) translateX(-50%);
+  -moz-transform: rotate(-90deg) translateX(-50%);
+  -ms-transform: rotate(-90deg) translateX(-50%);
+  transform: rotate(-90deg) translateX(-50%);
+}
+
+
+/* naver */
+  .css-14mvrwf {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-align-items: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    min-width: 40px;
+    min-height: 25px;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    background: url(https://img.29cm.co.kr/next29cm/myedit_sns_icon_mo.png) no-repeat;
+    -webkit-background-size: 191px 93px;
+    background-size: 191px 93px;
+    -webkit-background-position: 0 -49px;
+    background-position: 0 -49px;
+    vertical-align: top;
+    border: none;
+}
+
+/* facebook */
+.css-qcx0yj {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  min-width: 40px;
+  min-height: 25px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: url(https://img.29cm.co.kr/next29cm/myedit_sns_icon_mo.png) no-repeat;
+  -webkit-background-size: 191px 93px;
+  background-size: 191px 93px;
+  -webkit-background-position: -98px -49px;
+  background-position: -98px -49px;
+  vertical-align: top;
+  border: none;
+}
+
+/* apple */
+
+.css-kyk8nv {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  min-width: 40px;
+  min-height: 25px;
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  background: url(https://img.29cm.co.kr/next29cm/myedit_sns_icon_mo.png) no-repeat;
+  -webkit-background-size: 191px 93px;
+  background-size: 191px 93px;
+  -webkit-background-position: -147px -49px;
+  background-position: -147px -49px;
+  vertical-align: top;
+  border: none;
+}
+
+
+.css-1lfyd1o{
+  font-size: 15px;
+  font-weight: 400;
+}
